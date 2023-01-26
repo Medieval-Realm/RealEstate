@@ -160,7 +160,7 @@
 	    <dependency>
 		    <groupId>com.github.EtienneDx</groupId>
 		    <artifactId>AnnotationConfig</artifactId>
-		    <version>e9eab24</version>
+		    <version>1.1</version>
 		</dependency>
 	</dependencies>
 </project>
