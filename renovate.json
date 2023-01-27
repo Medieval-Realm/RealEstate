@@ -3,5 +3,10 @@
   "extends": [
     "config:base"
   ],
-  "prHourlyLimit": 5
+  "prHourlyLimit": 15,
+  "schedule": [
+    "after 10pm every weekday",
+    "before 5am every weekday",
+    "every weekend"
+  ]
 }
