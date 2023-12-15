@@ -27,7 +27,7 @@ jobs:
         run: mvn clean package --file pom.xml -X -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2
 
       - name: Upload
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: RealEstate
           path: target/*.jar
